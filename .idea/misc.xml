@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_rab_list_songs.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_rab_song1.xml" value="0.15260416666666668" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_rab_song4.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_rab_song5.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_romantic_song1.xml" value="0.15208333333333332" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_romantic_songs_list.xml" value="0.15208333333333332" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_sad_song1.xml" value="0.13854166666666667" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_sad_song2.xml" value="0.13854166666666667" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_sad_songs_list.xml" value="0.15260416666666668" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_sha3bi_song1.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_sha3bi_song2.xml" value="0.16666666666666666" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_songs.xml" value="0.15260416666666668" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_arabic_songs_list.xml" value="0.15260416666666668" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_home.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_indian_rab_songs_list.xml" value="0.15260416666666668" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_indian_sad_song1.xml" value="0.15104166666666666" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_login.xml" value="0.146875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_logo.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_lol.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_main2.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_puplar_song.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_start.xml" value="0.16666666666666666" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_rab_song1.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_rab_songs_list.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_romantic_song1.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_romantic_songs_list.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_sad_song1.xml" value="0.146875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_sad_songs_list.xml" value="0.146875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_sha3bi_song1.xml" value="0.13697916666666668" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_sha3bi_songs_list.xml" value="0.15208333333333332" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/activity_turkish_songs.xml" value="0.1796875" />
+        <entry key="..\:/cyber security/app/src/main/res/layout/content_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

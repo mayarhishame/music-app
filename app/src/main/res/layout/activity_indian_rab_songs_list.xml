@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:textAlignment="center"
+    tools:context=".indian_songs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FF1493"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+            <ImageButton
+                android:id="@+id/img2"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/d55" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="216dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Do Dhaari Talwaar "
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FF1493"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="369dp">
+
+            <ImageButton
+                android:id="@+id/img10"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/d54" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="216dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="  Channa Mereya "
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FF1493"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageButton
+                android:id="@+id/img8"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/d52" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="216dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="     Aaja Nachle"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FF1493"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageButton
+                android:id="@+id/img5"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/d51" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="216dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=" Lahu Munh Lag Gaya  "
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FF1493"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageButton
+                android:id="@+id/im3"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/d53" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="216dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=" Jukebox Telugu Version "
+                android:textSize="28sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

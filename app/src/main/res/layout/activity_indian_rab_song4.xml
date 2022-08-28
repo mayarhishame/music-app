@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".indian_romantic_song1">
+
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="315dp"
+        android:layout_height="59dp"
+        android:background="#FF1493"
+        android:backgroundTint="#FF1493"
+        android:progress="40"
+        android:progressTint="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="147dp"
+        android:layout_height="52dp"
+        android:background="@drawable/border"
+        android:text="   volume"
+        android:textColor="#FF1493"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FF1493"
+        android:onClick="play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FF1493"
+        android:onClick="stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        app:srcCompat="@android:drawable/checkbox_off_background" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#FF1493"
+        android:onClick="pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514"
+        app:srcCompat="@android:drawable/ic_media_pause" />
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="362dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="23dp"
+        android:background="#FF1493"
+        android:backgroundTint="#FF1493"
+        android:progressTint="#fff"
+        android:progress="40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="13dp"
+        android:background="#000000"
+        android:text="00:00"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="25dp"
+        android:text="00:00"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="328dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="26dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-2dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/d59" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
